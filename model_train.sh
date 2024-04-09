@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --gres=gpu:1
 #SBATCH --partition=gpuA100 
-#SBATCH --time=1:00:00
-#SBATCH --job-name=imdb_train
-#SBATCH --output=imdb_train.out
+#SBATCH --time=0:10:00
+#SBATCH --job-name=bert_cnn_train
+#SBATCH --output=bert_cnn_train.out
  
 # Activate environment
 uenv verbose cuda-12.2.0 cudnn-12.x-8.8.0
