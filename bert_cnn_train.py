@@ -23,8 +23,7 @@ def main():
 
     # load the dataframe
     data_dir = "data"
-    train_dir = os.path.join(data_dir, "train_images")       
-    batch_dir = os.path.join(data_dir, "mini_batch")       
+    train_dir = os.path.join(data_dir, "batch")        
     df_train = pd.read_csv(os.path.join(data_dir, 'multimodal_train.tsv'), sep='\t')
 
     # Prepare labels from dataframe
