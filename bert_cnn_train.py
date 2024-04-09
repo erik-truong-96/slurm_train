@@ -47,7 +47,7 @@ def main():
 
     # Create training dataset
     dataset = Multi_Modal_Dataset_Tensors(
-        img_dir=batch_dir,
+        img_dir=train_dir,
         df_labels=df_train_labels,
         transform=img_to_tensor,
         classes=classes,
