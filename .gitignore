@@ -4,6 +4,8 @@
 # Ignore virtual environment
 venv/
 
+./data
+
 # Ignore Python bytecode files
 __pycache__/
 *.pyc
